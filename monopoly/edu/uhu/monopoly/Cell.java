@@ -9,7 +9,7 @@ public abstract class Cell {
 		return name;
 	}
 
-	public Player getproprietary() {
+	public Player getProprietary() {
 		return proprietary;
 	}
 	
