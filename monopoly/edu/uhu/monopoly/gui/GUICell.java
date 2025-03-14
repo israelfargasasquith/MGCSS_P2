@@ -56,7 +56,7 @@ public class GUICell extends JPanel {
 		this.repaint();
 	}
 
-	public Cell getCell() {
+	public IPropietary getCell() {
 		return cell;
 	}
 	

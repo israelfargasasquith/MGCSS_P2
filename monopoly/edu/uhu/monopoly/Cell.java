@@ -1,6 +1,6 @@
 package edu.uhu.monopoly;
 
-public abstract class Cell {
+public abstract class Cell implements IPropietary {
 	private boolean available = true;
 	private String name;
 	protected Player proprietary;
@@ -9,6 +9,7 @@ public abstract class Cell {
 		return name;
 	}
 
+	@Override
 	public Player getProprietary() {
 		return proprietary;
 	}
@@ -31,6 +32,7 @@ public abstract class Cell {
 		this.name = name;
 	}
 
+	@Override
 	public void setProprietary(Player proprietary) {
 		this.proprietary = proprietary;
 	}
